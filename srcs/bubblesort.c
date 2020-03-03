@@ -6,13 +6,13 @@
 /*   By: blukasho <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/03 11:53:58 by blukasho          #+#    #+#             */
-/*   Updated: 2020/03/03 11:58:49 by blukasho         ###   ########.fr       */
+/*   Updated: 2020/03/03 13:26:11 by blukasho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <swap.h>
 
-void		bubblesort(int v[], int n)
+void		bubblesort(void *arr, size_t type_size, size_t )
 {
 	int		i;
 	int		l;
